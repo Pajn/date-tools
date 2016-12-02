@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/Pajn/date-tools.svg)](https://david-dm.org/Pajn/date-tools)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-Functions for comparing and counting with dates. Includes Typescript tyipings.
+Functions for comparing and counting with dates. Includes Typescript typings.
 
 
 ### Install
