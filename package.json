@@ -8,8 +8,9 @@
   "scripts": {
     "build": "tscomp build",
     "watch": "tscomp watch",
-    "test": "tscomp test",
-    "prepublish": "npm run build"
+    "test": "tscomp test --coverage",
+    "prepublish": "npm run build",
+    "report-coverage": "cat coverage/lcov.info | coveralls"
   },
   "repository": {
     "url": "https://github.com/Pajn/date-tools",
@@ -19,10 +20,13 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^16.0.1",
+    "coveralls": "^2.13.1",
     "tscomp": "^0.13.2"
   },
   "dependencies": {
     "rusted": "^1.0.0"
   },
-  "tscomp": {"mode": "lib"}
+  "tscomp": {
+    "mode": "lib"
+  }
 }
